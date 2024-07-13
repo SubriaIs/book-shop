@@ -3,10 +3,11 @@ package com.subria.fi.models;
 import com.subria.fi.enums.PersonType;
 
 import java.io.FileInputStream;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Person implements com.subria.fi.interfaces.Person {
+public class Person implements com.subria.fi.interfaces.Person, Serializable {
 
     private PersonType type;
     private String firstName;

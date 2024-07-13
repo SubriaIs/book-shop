@@ -2,9 +2,10 @@ package com.subria.fi.models;
 
 import com.subria.fi.enums.BookType;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Book implements com.subria.fi.interfaces.Book {
+public class Book implements com.subria.fi.interfaces.Book , Serializable {
     private int id;
     private BookType bookType;
     private String bookName;

@@ -10,6 +10,7 @@ import java.util.Date;
 import java.util.List;
 
 public class Transaction implements com.subria.fi.interfaces.Transaction, Serializable {
+    private static final long serialVersionUID = 1L;
     private TransactionType transactionType;
     private int id;
     private Date date;
